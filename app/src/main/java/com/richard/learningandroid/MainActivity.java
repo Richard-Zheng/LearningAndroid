@@ -18,4 +18,9 @@ public class MainActivity extends AppCompatActivity {
         Intent intent = new Intent(MainActivity.this, HelloToastActivity.class);
         startActivity(intent);
     }
+
+    public void startScrollingText(View view) {
+        Intent intent = new Intent(this, ScrollingTextActivity.class);
+        startActivity(intent);
+    }
 }

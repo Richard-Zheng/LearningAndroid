@@ -10,10 +10,12 @@
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
         <activity
-            android:name=".HelloToastActivity"
-            android:label="Hello Toast">
-
+            android:name=".ScrollingTextActivity"
+            android:label="Scrolling Text">
         </activity>
+        <activity
+            android:name=".HelloToastActivity"
+            android:label="Hello Toast"></activity>
         <activity android:name=".MainActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />

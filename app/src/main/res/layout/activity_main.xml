@@ -12,10 +12,17 @@
         android:orientation="vertical">
 
         <Button
-            android:id="@+id/buttonHelloToast"
+            android:id="@+id/button_start_hello_toast_activity"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:onClick="startHelloToast"
             android:text="Hello Toast" />
+
+        <Button
+            android:id="@+id/button_start_scrolling_text_activity"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:onClick="startScrollingText"
+            android:text="Scrolling Text" />
     </LinearLayout>
 </androidx.constraintlayout.widget.ConstraintLayout>
