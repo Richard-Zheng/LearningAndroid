@@ -23,4 +23,9 @@ public class MainActivity extends AppCompatActivity {
         Intent intent = new Intent(this, ScrollingTextActivity.class);
         startActivity(intent);
     }
+
+    public void startTemplateBasicActivity(View view) {
+        Intent intent = new Intent(this, TemplateBasicActivity.class);
+        startActivity(intent);
+    }
 }

@@ -24,5 +24,12 @@
             android:layout_height="wrap_content"
             android:onClick="startScrollingText"
             android:text="Scrolling Text" />
+
+        <Button
+            android:id="@+id/button_start_template_basic_activity"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:onClick="startTemplateBasicActivity"
+            android:text="Template Basic Activity" />
     </LinearLayout>
 </androidx.constraintlayout.widget.ConstraintLayout>
