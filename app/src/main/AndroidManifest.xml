@@ -10,12 +10,21 @@
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
         <activity
+            android:name=".ReceiveActivity"
+            android:label="@string/activity2_name"
+            android:parentActivityName=".SendActivity">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".SendActivity" />
+        </activity>
+        <activity android:name=".SendActivity" />
+        <activity
             android:name=".TemplateBasicActivity"
             android:label="@string/title_activity_template_basic"
-            android:theme="@style/AppTheme.NoActionBar"></activity>
+            android:theme="@style/AppTheme.NoActionBar" />
         <activity
             android:name=".ScrollingTextActivity"
-            android:label="Scrolling Text"></activity>
+            android:label="Scrolling Text" />
         <activity
             android:name=".HelloToastActivity"
             android:label="Hello Toast" />

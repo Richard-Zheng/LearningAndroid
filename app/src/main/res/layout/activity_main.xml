@@ -31,5 +31,12 @@
             android:layout_height="wrap_content"
             android:onClick="startTemplateBasicActivity"
             android:text="Template Basic Activity" />
+
+        <Button
+            android:id="@+id/button_start_send_activity"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:onClick="startSendActivity"
+            android:text="Send Activity" />
     </LinearLayout>
 </androidx.constraintlayout.widget.ConstraintLayout>
