@@ -13,5 +13,14 @@
         \n\n- Providing a way for apps to implement user flows between each other, and for the system to coordinate these flows. (The most classic example here being share.)
         \n\n</i>You implement an activity as a subclass of the Activity class. For more information about the Activity class, see https://developer.android.com/guide/components/activities .
     </string>
+    <string name="title_activity_template_basic">TemplateBasicActivity</string>
+    <!-- Strings used for fragments for navigation -->
+    <string name="first_fragment_label">First Fragment</string>
+    <string name="second_fragment_label">Second Fragment</string>
+    <string name="next">Next</string>
+    <string name="previous">Previous</string>
+
+    <string name="hello_first_fragment">Hello first fragment</string>
+    <string name="hello_second_fragment">Hello second fragment. Arg: %1$s</string>
 </resources>
 
